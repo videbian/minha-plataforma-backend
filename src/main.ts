@@ -6,9 +6,9 @@ async function bootstrap() {
   
   // Configurar CORS para permitir acesso do Frontend
   app.enableCors({
-    origin: true,
+    origin: ['https://minha-plataforma-frontend-git-main-vinicius-debians-projects.vercel.app', 'http://localhost:3000'],
     credentials: true,
-  });
+  } );
   
   // Usar a porta fornecida pelo Railway ou 3000 como fallback
   const port = process.env.PORT || 3000;
