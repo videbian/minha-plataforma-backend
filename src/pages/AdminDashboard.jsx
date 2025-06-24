@@ -7,9 +7,8 @@ function AdminDashboard() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  // URL do Backend no Railway
+  // URL do Backend no Railway - HARDCODED
   const backendUrl = 'https://minha-plataforma-backend-production.up.railway.app';
-  // Forçando novo deploy - versão 1.1
 
   useEffect(( ) => {
     const fetchData = async () => {
