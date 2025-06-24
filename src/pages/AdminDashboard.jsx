@@ -9,6 +9,7 @@ function AdminDashboard() {
 
   // URL do Backend no Railway
   const backendUrl = 'https://minha-plataforma-backend-production.up.railway.app';
+  // Forçando novo deploy - versão 1.1
 
   useEffect(( ) => {
     const fetchData = async () => {
