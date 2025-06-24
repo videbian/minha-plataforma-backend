@@ -6,7 +6,7 @@ async function bootstrap() {
 
   // Configuração CORS
   app.enableCors({
-    origin: 'https://minha-plataforma-frontend-git-main-vinicius-debians-projects.vercel.app', // ATUALIZADO PARA A NOVA URL DO SEU FRONTEND
+    origin: 'https://minha-plataforma-frontend.vercel.app', // ATUALIZADO PARA A URL MAIS RECENTE DO SEU FRONTEND
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true,
   } );
